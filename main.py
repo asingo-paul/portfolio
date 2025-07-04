@@ -1,6 +1,7 @@
 
 from flask import Flask, render_template, request, redirect, flash
 from flask_mail import Mail, Message
+import os
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -24,5 +25,6 @@ def contact():
         return redirect('/contact')
     return render_template('contact.html')
 
+port = int(os.environ.get("PORT", 5000))
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=port)
