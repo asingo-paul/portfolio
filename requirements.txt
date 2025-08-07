@@ -2,7 +2,6 @@
 filelock==3.18.0
 Flask==3.1.1
 Flask-Mail==0.10.0
-Flask-MySQLdb==2.0.0
 fonttools==4.58.5
 fsspec==2025.5.1
 idna==3.10
@@ -15,3 +14,4 @@ rsa==4.7.2
 s3transfer==0.13.0
 urllib3==2.5.0
 Werkzeug==3.1.3
+
