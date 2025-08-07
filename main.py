@@ -5,7 +5,6 @@ import os
 
 application = Flask(__name__)
 
-
 application.config['MAIL_SERVER'] = 'smtp.gmail.com'
 application.config['MAIL_PORT'] = 587
 application.config['MAIL_USE_TLS'] = True
