@@ -4,7 +4,7 @@ from flask_mail import Mail, Message
 import os
 
 application = Flask(__name__)
-application.secret_key = 'your_secret_key'
+application.secret_key = "7a110e36d5aec635898b6b580e632719e2ece5e9cc93604e7924835a673a6535"
 
 
 application.config['MAIL_SERVER'] = 'smtp.gmail.com'
